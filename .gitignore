@@ -6,6 +6,7 @@ node_modules/
 
 # Logs
 *.log
+*.md
 
 # Build / generated files (if you use any tools)
 dist/

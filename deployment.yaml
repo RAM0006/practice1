@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: simple-container
-          image: ram0006/simple-webapp:latest
+          image: ramana44/simple-webapp:latest
           ports:
             - containerPort: 3009

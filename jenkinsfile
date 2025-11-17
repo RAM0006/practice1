@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = "ram0006"
+        REGISTRY = "ramana44"
         IMAGE_NAME = "simple-webapp"
         TAG = "${BUILD_NUMBER}"
     }

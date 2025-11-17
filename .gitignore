@@ -1,0 +1,20 @@
+# Node dependencies (if backend or tools used)
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Build / generated files (if you use any tools)
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/

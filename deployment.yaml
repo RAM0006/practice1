@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simple-webapp
+  template:
+    metadata:
+      labels:
+        app: simple-webapp
+    spec:
+      containers:
+        - name: simple-container
+          image: ram0006/simple-webapp:latest
+          ports:
+            - containerPort: 3009
